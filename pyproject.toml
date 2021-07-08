@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nn_mathsymbols"
+version = "0.1.0"
+description = ""
+authors = ["rgargente <rgargente@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tensorflow = "^2.4.1"
+Pillow = "^8.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
