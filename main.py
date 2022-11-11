@@ -3,10 +3,10 @@ A NN exercise to recognise mathematical symbols(+,-,=) inspired by MNIST
 Dataset created with https://github.com/AxelThevenot/Python-Interface-to-Create-Handwritten-dataset
 """
 import os
+
 import tensorflow as tf
-from keras.layers import Reshape
+from keras.layers import Reshape, Rescaling
 from tensorflow import keras
-from tensorflow.python.keras.layers import Rescaling
 
 SEED = 1984
 DATA_PATH = 'data/mathsymbols'
