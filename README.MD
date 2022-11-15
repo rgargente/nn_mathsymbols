@@ -3,5 +3,10 @@ Dataset created with https://github.com/AxelThevenot/Python-Interface-to-Create-
 
 # Setup
 
-Includes a conda environment file (environment.yaml)
+Includes a conda/mamba environment file (environment.yml). 
 
+Updating the environment file:
+
+```
+conda env export --from-history | grep -v "^prefix: "  > environment.yml
+```

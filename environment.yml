@@ -1,4 +1,4 @@
-name: tf
+name: nn_mathsymbols
 channels:
   - defaults
 dependencies:
